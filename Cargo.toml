@@ -1,0 +1,10 @@
+[package]
+name = "personal_dictionary"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+inquire = "0.7.5"
+strum = "0.26.3"
+strum_macros = "0.26.4"
+typedb-driver = { version = "2.28.1", features = ["sync"] }
